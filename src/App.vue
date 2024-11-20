@@ -110,7 +110,7 @@ body {
 }
 
 .navigation {
-  background-color: #983E00;
+  background-color: #7a79c2;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   padding: 1rem;
   position: fixed;
@@ -157,7 +157,7 @@ body {
   transform: translateX(-50%);
   width: 0;
   height: 2px;
-  background-color: #B1D690;
+  background-color: #11194d;
   transition: width 0.3s ease;
 }
 
@@ -174,14 +174,14 @@ body {
 
 /* Footer Styles */
 .footer {
-  background-color: #983E00;
+  background-color: #0d5b6e;
   color: #ffffff;
   padding-top: 3rem;
   margin-top: auto;
 }
 
 .footer h3 {
-    color: #fff; /* Establece el color del texto del encabezado h5 en blanco. */
+    color: #fff; 
     font-weight: 600; /* Establece el peso de la fuente a semi-negrita. */
     margin-bottom: 20px; /* Define un margen inferior de 20px. */
     position: relative; /* Posiciona el encabezado de manera relativa para el uso de pseudo-elementos. */
@@ -189,7 +189,7 @@ body {
 }
 
 .footer h3::after {
-    content: ''; /* Crea un pseudo-elemento después del encabezado h5. */
+    content: ''; 
     position: absolute; /* Posiciona el pseudo-elemento de forma absoluta. */
     left: 0; /* Lo alinea a la izquierda del elemento padre. */
     bottom: -5px; /* Lo posiciona 5px debajo del encabezado. */
@@ -238,11 +238,11 @@ body {
 }
 
 .footer-section a:hover {
-  color: #B1D690;
+  color: #2377ac;
 }
 
 .footer-bottom {
-  background: linear-gradient(to right, #FF4300, #FF6400);
+  background: linear-gradient(to right, #6c8fbf, #2d4c8a);
   padding: 1rem;
   text-align: center;
   margin-top: 2rem;
